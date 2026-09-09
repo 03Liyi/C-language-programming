@@ -10,7 +10,7 @@ int main(){
     while(scanf("%d",e)==1&&e>=0){
         AppendElem(list, e);
     }
-    while(getchat()!='\n')
+    while(getchar()!='\n')
         continue;
     printf("你想查第几个元素？\n");
     scanf("%d", k);
